@@ -10,8 +10,6 @@ var result = SumOneArray.RunningSum(new int[] { 1, 3, 4, 5 });
 
 var sdtest = "sdfsdf";
 
-//sdfsfdsfd
-
 S
 var cool = FindPivotIndex.PivotIndex(new int[]{-1,-1,0,1,0,-1});
 */
