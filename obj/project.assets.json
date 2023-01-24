@@ -3963,11 +3963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\tests\\tests.csproj",
+      "projectUniqueName": "C:\\Projects\\LeetCodeTests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\Projects\\tests\\tests.csproj",
+      "projectPath": "C:\\Projects\\LeetCodeTests\\tests.csproj",
       "packagesPath": "C:\\Users\\e945468\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\tests\\obj\\",
+      "outputPath": "C:\\Projects\\LeetCodeTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3981,7 +3981,7 @@
         "net7.0"
       ],
       "sources": {
-        "https://deployables.sanlam.co.za/repository/retailmass-nuget/": {},
+        "http://deployables.sanlam.co.za/repository/retailmass-nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

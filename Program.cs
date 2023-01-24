@@ -18,4 +18,6 @@ var cool = FindPivotIndex.PivotIndex(new int[]{-1,-1,0,1,0,-1});
 // var test = PalindromeNumber.IsPalindrome(1221);
 
 
-var test = Isomorphic.IsIsomorphic("e", "a"); 
+//var test = Isomorphic.IsIsomorphic("e", "a"); 
+
+var result = Subsequences.IsSubsequence("ab", "baab");
