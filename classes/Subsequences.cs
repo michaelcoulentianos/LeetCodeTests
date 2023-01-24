@@ -4,7 +4,6 @@ public class Subsequences
     {
         var sequence = s.ToArray();
         var length = sequence.Length;
-        var position = 0;
 
         for (var i = 0; i < length; i++)
         {
@@ -12,9 +11,6 @@ public class Subsequences
             var current = t.IndexOf(seq);
             if (current == -1) return false;
             t = t.Remove(0, current+1);
-
-            if (position <= current) position = current;
-            else return false;
         }
 
         return true;
