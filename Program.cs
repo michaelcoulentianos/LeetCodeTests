@@ -20,4 +20,9 @@ var cool = FindPivotIndex.PivotIndex(new int[]{-1,-1,0,1,0,-1});
 
 //var test = Isomorphic.IsIsomorphic("e", "a"); 
 
-var result = Subsequences.IsSubsequence("twn", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtxxxxxxxxxxxxxxxxxxxxwxxxxxxxxxxxxxxxxxxxxxxxxxn");
+//var result = Subsequences.IsSubsequence("twn", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtxxxxxxxxxxxxxxxxxxxxwxxxxxxxxxxxxxxxxxxxxxxxxxn");
+
+ListNode l1 = new ListNode(0, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
+ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, null))));
+
+var result = AddTwoNumbersLinkLists.AddTwoNumbers(l1, l2);

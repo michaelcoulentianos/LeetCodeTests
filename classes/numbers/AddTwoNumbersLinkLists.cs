@@ -1,43 +1,26 @@
+using System.Text;
+using LeetCodeTests.classes.CommonLogic.StringManipulations;
+
 public class AddTwoNumbersLinkLists
 {
     public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
     {
-        string first = $"{l1.val}", second = $"{l2.val}";
-        //it's a stack approach add number as first index to string (while)
-        while (l1.next != null)
+        ListNode head = new ListNode();
+        var pointer = head;
+        int curval = 0;
+        while (l1 != null || l2 != null)
         {
-            l1 = l1.next;
-            l2 = l2.next;
-            first += l1.val;
-            second += l2.val;
+            curval = (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val) + curval;
+            pointer.next = new ListNode(curval % 10);
+            pointer = pointer.next;
+            // overflow decimal, like 12, we keep 1 for the next loop
+            curval = curval / 10;
+            // if next l1/l2 is not null, go to the next node
+            l1 = l1?.next;
+            l2 = l2?.next;
         }
-        //convert to number plus together 
-        int sum = int.Parse(first) + int.Parse(second);
-        char[] nums = $"{sum}".ToArray();
-
-        //add back to ListNode
-        return AddListNode(nums);
-    }
-
-    public static ListNode AddListNode<T>(T input) where T : IEnumerable<char>
-    {
-        //add back to ListNode
-        ListNode? head = null, current = null;
-
-        foreach (var item in input.Reverse())
-        {
-            var node = new ListNode((int)Char.GetNumericValue(item));
-            if (head == null)
-            {
-                head = node;
-                current = head;
-            }
-            else
-            {
-                current.next = node;
-                current = current.next;
-            }
-        }
-        return head;
+        // if there is overflow left, add a node
+        if (curval != 0) pointer.next = new ListNode(curval);
+        return head.next;
     }
 }

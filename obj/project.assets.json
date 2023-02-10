@@ -3963,11 +3963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\LeetCodeTests\\tests.csproj",
+      "projectUniqueName": "c:\\Projects\\LeetCodeTests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\Projects\\LeetCodeTests\\tests.csproj",
+      "projectPath": "c:\\Projects\\LeetCodeTests\\tests.csproj",
       "packagesPath": "C:\\Users\\e945468\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\LeetCodeTests\\obj\\",
+      "outputPath": "c:\\Projects\\LeetCodeTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
