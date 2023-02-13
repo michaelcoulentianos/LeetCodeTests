@@ -1,4 +1,4 @@
-﻿using tests;
+﻿using LeetCodeTests.classes.numbers;
 // See https://aka.ms/new-console-template for more information
 
 
@@ -22,7 +22,16 @@ var cool = FindPivotIndex.PivotIndex(new int[]{-1,-1,0,1,0,-1});
 
 //var result = Subsequences.IsSubsequence("twn", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxtxxxxxxxxxxxxxxxxxxxxwxxxxxxxxxxxxxxxxxxxxxxxxxn");
 
-ListNode l1 = new ListNode(0, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
-ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, null))));
+// ListNode l1 = new ListNode(0, new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9)))));
+// ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, null))));
 
-var result = AddTwoNumbersLinkLists.AddTwoNumbers(l1, l2);
+// var result = AddTwoNumbersLinkLists.AddTwoNumbers(l1, l2);
+
+
+// ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+// ListNode l2 = new ListNode(1, new ListNode(3, new ListNode(4)));
+
+ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
+ListNode l2 = new ListNode(0);
+
+MergeTwoSortedLists.MergeTwoLists(null, l2);
