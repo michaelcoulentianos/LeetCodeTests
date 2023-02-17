@@ -10,6 +10,12 @@ public class ListNode
         this.next = next;
     }
 
+    public ListNode(int x)
+    {
+        val = x;
+        next = null;
+    }
+
     public static ListNode AddListNode<T>(T input) where T : IEnumerable<char>
     {
         //add back to ListNode

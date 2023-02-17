@@ -1,2 +1,13 @@
 {
-}
+    "testExplorer.showCollapseButton": "always",
+    "testExplorer.codeLens": true,
+    "testExplorer.slowTestThreshold": 500,
+    "testExplorer.testProjectPath": "./LEETCODETESTS",
+    "testExplorer.testArguments": [
+      "--configuration",
+      "Debug",
+      "--logger",
+      "trx"
+    ]
+  }
+  
