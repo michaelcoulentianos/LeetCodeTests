@@ -29,7 +29,8 @@ namespace LeetCodeTests.UnitTests.LinkedLists
         [TestCase]
         public void Complex()
         {
-            ListNode l1 = new(-1, new(-7, new(7, new(-4, new(19, new(6, new(-9, new(-5, new(-2, new(-5, new(-9,new(-5, new(-2, new(-5))))))))))))));
+            ListNode l1 = new(-1, new(-7, new(7, new(-4, new(19, new(6, new(-9, new(-5, new(-2, new(-5))))))))));
+            l1.next = new(-9,new(-5, new(-2, new(-5))));
             var result = LinkedListCycleII.DetectCycle(l1);
         }
 

@@ -45,5 +45,31 @@ namespace LeetCodeTests.classes.linkedLists
 
             return null;
         }
+
+        public static ListNode BetterDetectCycle(ListNode head)
+        {
+            ListNode start = head;
+            ListNode slow = head;
+            ListNode fast = head;
+
+            while (slow.next != null && fast.next.next != null)
+            {
+                slow = slow.next;
+                fast = fast.next.next;
+
+                if (slow == fast)
+                {
+                    fast = start;
+                    while (fast != slow)
+                    {
+                        fast = fast.next;
+                        slow = slow.next;
+                    }
+                    return fast;
+                }
+            }
+
+            return null;
+        }
     }
 }
