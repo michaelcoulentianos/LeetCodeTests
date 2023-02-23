@@ -17,7 +17,7 @@ namespace LeetCodeTests.UnitTests.Trees
             return NAryTreePreorderTraversal.Preorder(root);
         }
 
-        [TestCase(ExpectedResult = new int[] { 1, 3, 5, 6, 2, 4 })]
+        [TestCase(ExpectedResult = new int[] { })]
         public IList<int> Simple_Tree_Traversal_Expected_Empty_Array()
         {
             return NAryTreePreorderTraversal.Preorder(null);
