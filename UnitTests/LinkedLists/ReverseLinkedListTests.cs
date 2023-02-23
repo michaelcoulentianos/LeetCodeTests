@@ -1,6 +1,6 @@
 using LeetCodeTests.classes.linkedLists;
 
-namespace LeetCodeTests.UnitTests.LinkedLists;
+namespace LeetCodeTests.UnitTests;
 
 public class ReverseLinkedListTests
 {

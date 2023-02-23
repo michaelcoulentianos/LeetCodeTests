@@ -1,6 +1,6 @@
 using LeetCodeTests.classes.Greedy;
 
-namespace LeetCodeTests.UnitTests.Greedy;
+namespace LeetCodeTests.UnitTests;
 
 public class BuyAndSellTests
 {

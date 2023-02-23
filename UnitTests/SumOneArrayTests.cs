@@ -1,4 +1,6 @@
-namespace tests;
+using tests;
+
+namespace LeetCodeTests.UnitTests;
 
 public class SumOneArrayTests
 {

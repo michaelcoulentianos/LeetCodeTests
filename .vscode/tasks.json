@@ -47,6 +47,17 @@
             "problemMatcher": [],
             "label": "npm: test",
             "detail": "echo \"Error: no test specified\" && exit 1"
+        },
+        {
+            "type": "npm",
+            "script": "test",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "label": "npm: test",
+            "detail": "echo \"Error: no test specified\" && exit 1"
         }
     ]
 }

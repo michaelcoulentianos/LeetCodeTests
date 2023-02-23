@@ -2,7 +2,7 @@
     "testExplorer.showCollapseButton": "always",
     "testExplorer.codeLens": true,
     "testExplorer.slowTestThreshold": 500,
-    "testExplorer.testProjectPath": "./LEETCODETESTS",
+    "testExplorer.testProjectPath": "./LeetCodeTests",
     "testExplorer.testArguments": [
       "--configuration",
       "Debug",

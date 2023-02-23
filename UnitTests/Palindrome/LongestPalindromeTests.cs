@@ -1,4 +1,4 @@
-namespace LeetCodeTests;
+namespace LeetCodeTests.UnitTests.Palindrome;
 
 public class LongestPalindromeTests
 {
